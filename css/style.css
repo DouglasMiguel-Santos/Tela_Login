@@ -162,7 +162,7 @@ body {
   padding: 0 10px; /* Espaçamento interno do texto */
 }
 button {
-  margin-top: 12px;
+  margin-top: 0px;
   width: 150px;
   height: 40px;
   border-radius: 50px;
@@ -205,4 +205,13 @@ button:hover {
   color: white;
   margin-left: 20px;
   padding: 5px;
+}
+.register-link {
+  padding: 5px;
+
+  width: 290px;
+  margin-top: 5px;
+  grid-column: 3/8;
+  grid-row: 9/9;
+  color: white;
 }
