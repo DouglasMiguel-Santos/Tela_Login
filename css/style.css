@@ -57,23 +57,23 @@ body {
   justify-content: center;
   justify-items: center;
   backdrop-filter: blur(50px);
-  max-height: 600px;
-  max-width: 600px;
+  max-height: 500px;
+  max-width: 500px;
   margin-left: 200px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.584);
   border-radius: 35px;
   border: 2px solid white;
   gap: 5px;
-  margin-right: 50px;
+  margin-right: 90px;
 }
 .caixa-login img {
   background-color: transparent;
   grid-area: "caixa-login";
-  grid-column: 2/8;
+  grid-column: 5/8;
   grid-row: 2/2;
-  width: 300px;
-  height: 150px;
-  margin-left: 50px;
+  width: 240px;
+  height: 120px;
+  margin-left: 30px;
   margin-top: -100px;
   border-bottom: 2px solid #ccc;
   margin: 0;
@@ -83,13 +83,13 @@ body {
 .inputPassword {
   border: 2px solid white;
   outline: none;
-  background: transparent;
-  width: 500px;
-  height: 50px;
-  padding: 5px;
+  background: rgb(255, 255, 255);
+  width: 400px;
+  height: 40px;
+  padding: 10px;
   margin-top: 0px;
   border-radius: 20px;
-  padding: 10px;
+
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.658);
 }
 .inputPassword::placeholder {
@@ -97,29 +97,32 @@ body {
 }
 
 .i1 {
+  display: grid;
   color: rgb(34, 34, 67);
-  font-size: 30px;
-  align-items: center !important;
-  justify-items: center !important;
+  font-size: 20px;
+  align-items: center;
+  justify-items: center;
   grid-row: 4/4;
   grid-column: 8/8;
-  border-radius: 50%;
-  height: 40px;
-  margin-top: 40px;
-  margin-right: 60px;
+  height: 30px;
+  margin-top: 45px;
+  margin-right: 120px;
+  margin-left: 0px;
   width: 40px;
 }
 .i2 {
+  margin-left: 0px;
+  display: grid;
   color: rgb(34, 34, 67);
-  font-size: 30px;
+  font-size: 20px;
   align-items: center;
   justify-content: center;
   grid-row: 5/5;
   grid-column: 8/8;
   border-radius: 50%;
-  height: 40px;
-  margin-top: 40px;
-  margin-right: 60px;
+  height: 30px;
+  margin-top: 45px;
+  margin-right: 120px;
   width: 40px;
 }
 .divemail {
@@ -129,7 +132,7 @@ body {
   align-items: center;
   justify-content: center;
   justify-items: center;
-  margin-left: 95px;
+  margin-left: 150px;
 }
 .divpassword {
   grid-row: 5/5;
@@ -137,26 +140,28 @@ body {
   align-items: center;
   justify-content: center;
   justify-items: center;
-  margin-left: 95px;
+  margin-left: 150px;
   grid-area: "divpasswoard";
 }
 .btn {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  grid-column: 3/8;
-  grid-row: 10/10;
-  width: 400px;
+  grid-column: 5/8;
+  grid-row: 9/9;
+  width: 290px;
+  margin-left: 80px;
+  gap: 30px;
 }
 
 .divider {
-  grid-column: 3/8;
+  grid-column: 5/8;
   grid-row: 8/8;
   color: white;
   display: flex;
   align-items: center;
   text-align: center;
-  margin: 20px 0;
+  margin: 8px 0px 8px 80px;
   width: 100%;
 }
 
@@ -173,8 +178,8 @@ body {
 }
 .btn-sociais {
   margin-top: 0px;
-  width: 140px;
-  height: 40px;
+  width: 150px;
+  height: 30px;
   border-radius: 50px;
   display: grid;
   align-items: center;
@@ -183,7 +188,7 @@ body {
 }
 .btn-sociais:hover {
   background: rgb(34, 34, 67);
-
+  opacity: 0.5;
   color: white;
   border: 1px solid white;
   transition: all;
@@ -191,14 +196,15 @@ body {
 .lenbrarSenha {
   color: rgb(203, 201, 201);
   font-size: 15px;
-  grid-column: 3/8;
+  grid-column: 5/8;
   grid-row: 6/6;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 350px;
-  height: 40px;
-  font-weight: 500;
+  height: 30px;
+  font-weight: 400;
+  margin-left: 80px;
 }
 .lenbrarSenha a {
   margin-left: 50px;
@@ -208,26 +214,40 @@ body {
 }
 .p1 {
   color: white;
-  margin-left: 20px;
+  margin-left: 50px;
   padding: 5px;
 }
 .p2 {
   color: white;
-  margin-left: 20px;
+  margin-left: 80px;
   padding: 5px;
 }
 .register-link {
   padding: 5px;
   width: 290px;
   margin-top: 0px;
-  grid-column: 3/8;
-  grid-row: 9/9;
+  grid-column: 5/8;
+  grid-row: 10/10;
   color: white;
+  margin-left: 80px;
 }
 .login {
-  width: 300px;
-  grid-column: 3/8;
+  background-color: transparent;
+  width: 400px;
+  grid-column: 5/8;
   grid-row: 7/7;
   font-size: 20px;
   font-weight: 500;
+  margin-left: 80px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 1px solid white;
+  color: white;
+}
+.login:hover {
+  background: rgb(34, 34, 67);
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.608);
+  color: white;
+  border: 1px solid white;
+  opacity: 0.5;
 }
