@@ -41,10 +41,11 @@ body {
   background-color: transparent;
   border-radius: 30px;
   padding: 10px;
-  width: 500px;
-  height: 500px;
+  width: 700px;
+  height: 700px;
 }
 .caixa-login {
+  transform: translateX(-10%);
   background-color: transparent;
   display: grid;
   grid-template-areas:
@@ -71,11 +72,11 @@ body {
   grid-area: "caixa-login";
   grid-column: 5/8;
   grid-row: 2/2;
-  width: 240px;
-  height: 120px;
+  width: 280px;
+  height: 130px;
   margin-left: 30px;
   margin-top: -100px;
-  border-bottom: 2px solid #ccc;
+
   margin: 0;
   padding: 10px 0;
   margin-left: 100px;
@@ -93,7 +94,7 @@ body {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.658);
 }
 .inputPassword::placeholder {
-  color: white;
+  color: rgba(128, 128, 128, 0.637);
 }
 
 .i1 {
